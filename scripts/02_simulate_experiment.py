@@ -25,7 +25,7 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"
 
-N_PER_GROUP = 32_000        # 由 01_power_analysis 得出：检测 10% 相对提升约需每组 3.2 万人
+N_PER_GROUP = 32_000        # 由 01_power_analysis 得出：检测 10% 相对提升约需每组 31,231 人，此处取 32,000
 BASE_CVR = 0.05             # 基线转化率
 TRUE_REL_LIFT = 0.10        # 真实效应：转化率相对 +10%
 TRUE_GMV_LIFT = 0.04        # 真实效应：GMV +4%
